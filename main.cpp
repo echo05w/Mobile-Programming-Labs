@@ -41,3 +41,19 @@ In statically-typed languages like C++ and Java, the type of a variable is known
 
    3 Control Flow
    Q2:
+While loop: Use when you want to check the condition first and execute the loop only if the condition is true. This is useful for cases where you may not want the loop to run at all.
+Do-while loop: Use when you want the loop to run at least once, even if the condition is initially false. This is useful when the code inside the loop must run at least once before checking the condition 
+  (e.g., asking the user for input and then validating it).
+
+   Q3:
+  The switch statement checks the value of an expression and compares it to multiple case labels.
+  break stops the execution and exits the switch block once a match is found.
+  The default case is a fallback if no match is found.(No more options left).
+
+   Q4:
+Logical AND (&&): If the first condition is false, the second condition is not evaluated because the result will definitely be false (regardless of the second condition).
+Logical OR (||): If the first condition is true, the second condition is not evaluated because the result will definitely be true (regardless of the second condition).
+ if (x > 0 && 10 / x > 1) = And if (x > 0 || 10 / x > 1) = OR
+
+4 Functions / Methods
+  Q1:
