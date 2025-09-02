@@ -56,4 +56,23 @@ Logical OR (||): If the first condition is true, the second condition is not eva
  if (x > 0 && 10 / x > 1) = And if (x > 0 || 10 / x > 1) = OR
 
 4 Functions / Methods
-  Q1:
+  Q2:
+C++:
+  You can pass by value, reference, or pointer.
+  Pass-by-reference and pass-by-pointer allow you to modify the original argument.
+Java:
+  Everything is passed by value.
+  For primitives, it’s like C++ pass-by-value.
+  For objects, it’s the reference that’s passed by value. This means the method can modify the object’s state, but not the reference itself.
+
+  Q3:
+Overloading lets you define multiple functions/methods with the same name but different parameters.
+The number or type of parameters must differ for valid overloading in C++ and Java.
+The return type or access modifiers (like public, private) do not contribute to overloading validity.
+
+  Q4:
+Recursion involves a function calling itself to solve smaller versions of the problem.
+The base case is the condition where recursion stops and provides the final answer.
+The base case is crucial to prevent infinite recursion and ensure that the function eventually returns a result.
+
+  5 Comments
