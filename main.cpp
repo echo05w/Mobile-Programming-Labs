@@ -1,7 +1,7 @@
 // Soliyev Hasan
 // 220079
 
-// Tuesday 14:30
+
 // Wednesday 9:00
 
 //   1 Main Function
